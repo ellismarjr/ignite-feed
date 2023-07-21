@@ -1,7 +1,7 @@
 import { Header } from './components/header/header';
 import './styles/global.css';
 import styles from './App.module.css';
-
+import { Post } from './components/post/post';
 import { Sidebar } from './components/sidebar/sidebar';
 
 function App() {
@@ -13,6 +13,10 @@ function App() {
         <aside>
           <Sidebar />
         </aside>
+        <main>
+          <Post />
+          <Post />
+        </main>
       </div>
     </div>
   );
